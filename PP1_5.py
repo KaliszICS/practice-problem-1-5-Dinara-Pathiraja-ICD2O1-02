@@ -12,7 +12,7 @@ def q1():
   print(num2)
 
 def q2():
-  num1= input("Input an integer: ")
+  num1= input("Input a number: ")
   num2=(num1+4)
   num3= float(num2)
   num4= (num3+2)
