@@ -20,8 +20,8 @@ def q2():
 
 def q3():
   radius= input("Input a radius: ")
-  radius= float(radius)
-  print(radius * 3.14)
+  radius1= float(radius)
+  print(radius1 * 3.14)
 
 def q4():
   num1= input("Input a number: ")
