@@ -1,6 +1,8 @@
 
 def q1():
-  #Write Assignment code here
+  num1= input("Input an integer: ")
+  num1=int(num1)
+  print(num1+3)
 
 def q2():
   #Write Assignment code here
