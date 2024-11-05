@@ -16,7 +16,7 @@ def q2():
   num2=(num1+ "4")
   num3= float(num2)
   num4= (num3+2)
-  print(num4)
+  print (f"Input a number: {num4}")
 
 def q3():
   radius= input("Input a radius: ")
