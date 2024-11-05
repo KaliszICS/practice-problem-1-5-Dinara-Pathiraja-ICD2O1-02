@@ -6,36 +6,37 @@
 '''
 
 def q1():
-  num1= input("Input an integer: ")
-  num1=int(num1)
+  prompt= input("Input an integer: ")
+  num1=int(propmt)
   num2=(num1+3)
   print(num2)
 
 def q2():
-  num1= input("Input a number: ")
-  num2=(num1+ "4")
-  num3= float(num2)
-  num4= (num3+2)
-  print (f"Input a number: {num4}")
-
+ prompt2 = input ("Input a number: ")
+ num3 = ((prompt2) + '4')
+ num4 = float(num3)
+ num5 = num4+2
+ print (num5)
+    
 def q3():
-  radius= input("Input a radius: ")
-  radius1= float(radius)
-  print(radius1**2 * 3.14 )
+  prompt3 = input ("Input a radius: ")
+  radius = (float (prompt3))
+  AreaOfCircle = 3.14*radius**2
+  print (AreaOfCircle)
 
 def q4():
-import math 
-  num1= input("Input a number: ")
-  num1= float(num1)
-  num2= num1 * 12 
-  num2= math.floor(num2)
-  print(num2)
+  prompt4 = input ("Input a number: ")
+  num6 = (float(prompt4))
+  num7 = (num6*12)
+  num8 = math.floor(num7)
+  print (num8)
 
 def q5():
-  num1= input("Input an integer: ")
-  num1= int(num1)
-  var= (num1 + 5)
-  print (f"Your number + 5 is {var}")
+  prompt5 = input ("Input an integer: ")
+  num9 = (int(prompt5))
+  var1 = (num9 + 5)
+  print (f"Your number + 5 is {var1}")
+
 
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
