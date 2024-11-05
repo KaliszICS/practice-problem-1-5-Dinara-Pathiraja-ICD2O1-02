@@ -2,7 +2,7 @@
     Lesson: Typecasting
     Author: Mr. Kalisz
     Date Creatd: Sept 23, 2024
-    Date Last Modified: Sept 23, 2024
+    Date Last Modified: Nov 04, 2024
 '''
 
 def q1():
@@ -24,17 +24,18 @@ def q3():
   print(3.14 * radius1^2 )
 
 def q4():
+import math 
   num1= input("Input a number: ")
   num1= float(num1)
   num2= num1 * 12 
-  num2= int(num2)
+  num2= math.floor(num2)
   print(num2)
 
 def q5():
   num1= input("Input an integer: ")
   num1= int(num1)
-  num2= (num1 + 5)
-  print (f"Your number + 5 is (num2)")
+  var= (num1 + 5)
+  print (f"Your number + 5 is (var)")
 
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
