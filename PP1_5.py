@@ -21,14 +21,14 @@ def q2():
 def q3():
   radius= input("Input a radius: ")
   radius1= float(radius)
-  print(({radius1}^2) * 3.14 )
+  print(radius1**2 * 3.14 )
 
 def q4():
 import math 
   num1= input("Input a number: ")
   num1= float(num1)
   num2= num1 * 12 
-  num2= math.floor{num2}
+  num2= math.floor(num2)
   print(num2)
 
 def q5():
